@@ -9,3 +9,4 @@ scikit-learn
 pandas
 python-multipart
 motor
+python-dotenv
