@@ -1,0 +1,77 @@
+ .gitignore                                     |   58 [32m+[m
+ .prettierignore                                |    8 [32m+[m
+ AGENTS.md                                      |   10 [32m+[m
+ Backend/Dockerfile                             |   19 [32m+[m
+ Backend/app/__init__.py                        |    0
+ Backend/app/auth_routes.py                     |  142 [32m++[m
+ Backend/app/config.py                          |    0
+ Backend/app/database.py                        |   22 [32m+[m
+ Backend/app/main.py                            |   74 [32m+[m
+ Backend/app/ml/detector.py                     |  127 [32m+[m
+ Backend/app/ml/train_from_datasets.py          |  117 [32m+[m
+ Backend/app/models/alert.py                    |    0
+ Backend/app/models/report.py                   |   30 [32m+[m
+ Backend/app/models/user.py                     |    0
+ Backend/app/routes/analytic.py                 |    0
+ Backend/app/routes/auth.py                     |    0
+ Backend/app/routes/chatbot.py                  |   80 [32m+[m
+ Backend/app/routes/fraud.py                    |  129 [32m+[m
+ Backend/app/routes/news.py                     |   71 [32m+[m
+ Backend/app/routes/reports.py                  |   49 [32m+[m
+ Backend/app/schemas.py                         |   65 [32m+[m
+ Backend/app/schemas/auth.py                    |    0
+ Backend/app/schemas/fraud.py                   |    0
+ Backend/app/security.py                        |   43 [32m+[m
+ Backend/app/utils/auth_jwt.py                  |    0
+ Backend/app/utils/hashing.py                   |    0
+ Backend/requirements.txt                       |   10 [32m+[m
+ Frontend/.gitignore                            |   32 [32m+[m
+ Frontend/.prettierignore                       |    8 [32m+[m
+ Frontend/.prettierrc                           |    6 [32m+[m
+ Frontend/AGENTS.md                             |   10 [32m+[m
+ Frontend/bun.lock                              |  461 [32m++++[m
+ Frontend/bunfig.toml                           |    7 [32m+[m
+ Frontend/index.html                            |   16 [32m+[m
+ Frontend/package-lock.json                     | 3040 [32m++++++++++++++++++++++++[m
+ Frontend/package.json                          |   28 [32m+[m
+ Frontend/postcss.config.js                     |    6 [32m+[m
+ Frontend/src/App.jsx                           |   89 [32m+[m
+ Frontend/src/components/DashShell.jsx          |   85 [32m+[m
+ Frontend/src/components/ProtectedRoute.jsx     |   11 [32m+[m
+ Frontend/src/index.css                         |   57 [32m+[m
+ Frontend/src/lib/auth.js                       |   54 [32m+[m
+ Frontend/src/main.jsx                          |   13 [32m+[m
+ Frontend/src/pages/ChooseRole.jsx              |   62 [32m+[m
+ Frontend/src/pages/Landing.jsx                 |  118 [32m+[m
+ Frontend/src/pages/admin/AdminLayout.jsx       |   16 [32m+[m
+ Frontend/src/pages/admin/Alerts.jsx            |  112 [32m+[m
+ Frontend/src/pages/admin/Analytics.jsx         |  210 [32m++[m
+ Frontend/src/pages/admin/Cases.jsx             |  353 [32m+++[m
+ Frontend/src/pages/admin/Dashboard.jsx         |  302 [32m+++[m
+ Frontend/src/pages/admin/Mule.jsx              |  129 [32m+[m
+ Frontend/src/pages/admin/Profile.jsx           |   38 [32m+[m
+ Frontend/src/pages/admin/Reports.jsx           |  233 [32m++[m
+ Frontend/src/pages/admin/Settings.jsx          |    4 [32m+[m
+ Frontend/src/pages/auth/AuthShell.jsx          |   50 [32m+[m
+ Frontend/src/pages/auth/ForgotPassword.jsx     |   24 [32m+[m
+ Frontend/src/pages/auth/LoginAdmin.jsx         |  114 [32m+[m
+ Frontend/src/pages/auth/LoginCustomer.jsx      |  119 [32m+[m
+ Frontend/src/pages/auth/ProtectedRoute.jsx     |   23 [32m+[m
+ Frontend/src/pages/auth/RegisterAdmin.jsx      |  126 [32m+[m
+ Frontend/src/pages/auth/RegisterCustomer.jsx   |  133 [32m++[m
+ Frontend/src/pages/customer/Chatbot.jsx        |  148 [32m++[m
+ Frontend/src/pages/customer/CustomerLayout.jsx |   16 [32m+[m
+ Frontend/src/pages/customer/CustomerNews.jsx   |  225 [32m++[m
+ Frontend/src/pages/customer/Dashboard.jsx      |  219 [32m++[m
+ Frontend/src/pages/customer/FraudDetector.jsx  |  177 [32m++[m
+ Frontend/src/pages/customer/History.jsx        |  137 [32m++[m
+ Frontend/src/pages/customer/Profile.jsx        |   46 [32m+[m
+ Frontend/src/pages/customer/Reports.jsx        |  344 [32m+++[m
+ Frontend/src/pages/customer/Settings.jsx       |   46 [32m+[m
+ Frontend/tailwind.config.js                    |   40 [32m+[m
+ Frontend/vite.config.js                        |    8 [32m+[m
+ index.html                                     |   17 [32m+[m
+ package.json                                   |   28 [32m+[m
+ tailwind.config.js                             |   40 [32m+[m
+ vite.config.js                                 |    8 [32m+[m
+ 76 files changed, 8642 insertions(+)
