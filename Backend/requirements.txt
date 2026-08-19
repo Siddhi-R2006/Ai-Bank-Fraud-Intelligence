@@ -8,3 +8,4 @@ transformers
 scikit-learn
 pandas
 python-multipart
+motor
