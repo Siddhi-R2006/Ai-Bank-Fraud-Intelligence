@@ -53,6 +53,7 @@ lerna-debug.log*
 *.pyo
 
 # Large ML files
-Backend/app/ml/model_weights/*.pkl
+Backend/app/ml/model_weights/*
+!Backend/app/ml/model_weights/fraud_detector_model.pkl
 Backend/app/ml/*.csv
 Backend/app/ml/SMSSpamCollection
